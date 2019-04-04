@@ -284,3 +284,30 @@ h1, h2, h3, h4, h5 {
 			width: 100%;
 			}
 		}
+
+		@media (max-width: 500px) {
+			.container {
+				width: 500px;
+			}
+
+			
+
+			.top-content {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+			}
+
+			.top-content p {
+				margin-bottom: 30px;
+			}
+
+			.bottom-content {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.bottom-content p {
+				margin-bottom: 30px;
+			}
+		}
